@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .main {
+            height: 100vh;
+            width: 100%;
+            background: url("img1.jpg");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+        }
+
+        .fcard {
+            height: 300px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        div>a {
+            margin-left: 40px;
+            color: black;
+            font-size: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 11px;
+        }
+
+
+        .m input {
+            background: transparent;
+            height: 25px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        button {
+            height: 25px;
+            width: 100px;
+            border-radius: 5px;
+            background: none;
+        }
+
+        div .n {
+            font-size: 10px;
+
+        }
+
+        [type=checkbox] {
+            background: transparent;
+        }
+
+        ::placeholder {
+
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form action="" class="fcard">
+
+            <h1>Student Login Form</h1>
+
+            <div class="m"> <input type="email, text" placeholder="enter username"></div><br>
+            <div class="m"> <input type="password" placeholder="enter password"></div><br>
+            <div class="n"><input type="checkbox" name="" id="">Remember me
+                <a href="">Forget password ?</a>
+            </div><br>
+            <button>Login</button><br>
+            <a href="">Don't have an account ? Register here</a>
+        </form>
+
+    </div>
+</body>
+
+</html>
